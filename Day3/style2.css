@@ -1,0 +1,40 @@
+#one
+{
+    background-color: blueviolet;
+}
+
+/* attribute priority: just after id */
+h1[draggable="true"]
+{
+    background-color: rgb(125, 201, 175);
+}
+
+
+.first
+{
+    background-color: yellow;
+}
+
+ 
+/* descendent */
+body h1
+{
+    background-color: rgb(38, 206, 114);
+}
+
+
+/* child and descendent have same priority */
+
+/* child */
+body > h1
+{
+    background-color: blue;
+}
+
+
+h1
+{
+    background-color: red;
+    color: white;
+    background-color: pink;
+}

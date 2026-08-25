@@ -1,0 +1,48 @@
+h1
+{
+    color: violet;
+    background-color: wheat;
+    /* border-style:inset;
+    border-width: 7px;
+    border-color:brown; */
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    border: 6px rgb(211, 26, 26) outset;
+    padding:50px;
+    margin: 30px;
+    
+    box-sizing:border-box;
+}
+/* top right bottom left */
+
+h2 
+{
+    background-color: rgb(83, 196, 185);
+    border-left-width: 10px;
+    /* border-style: outset; */
+    border-left-color: rgb(255, 116, 92);
+    border-right-color: rgb(222, 92, 69);
+    border-top-color: rgb(182, 36, 10);
+    border-bottom-color: rgb(254, 170, 155);
+    /* border-left-style:outset; */
+    border-width: 10px 20px 30px 40px;
+    border-style:solid;
+}
+
+ul
+{
+    color: tomato;
+    background-color: rgb(14, 8, 0);
+}
+
+p
+{
+    color: white;
+    background-color:rgb(0, 74, 23);
+    border-style:solid;
+    border-color: rgb(109, 190, 193);
+    border-width: 5px;
+    padding: 5px;
+}
+

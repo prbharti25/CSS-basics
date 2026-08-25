@@ -1,0 +1,61 @@
+/* h1, p
+{
+    background-color: rgb(236, 97, 171);
+    color: rgb(0, 255, 8);
+    text-align: justify;
+} */
+
+/* .container
+{
+    text-align: center;
+    background-color: bisque;
+}
+
+h1
+{
+    background-color: blue;
+}
+
+p
+{
+    background-color: cadetblue;
+}
+button
+{
+    background-color: orange;
+} */
+
+/* 
+p
+{
+    background-color: yellowgreen;
+    text-align-last: justify;
+} */
+
+/* h1
+{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+span
+{
+    vertical-align: sub;
+} */
+
+
+h1
+{
+    /* text-decoration: overline underline; */
+    /* text-decoration: line-through; */
+
+    text-transform:lowercase;
+}
+
+p
+{
+    text-indent: 100px;
+    letter-spacing: 2px;
+    /* line-height: 2px; */
+    text-shadow: 15px 12px 10px; 
+}

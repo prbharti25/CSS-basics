@@ -1,0 +1,30 @@
+.first
+{
+    display: inline;
+    background-color: violet;
+    height: 100px;
+    width: 50px;
+    margin: 40px;
+}
+
+.second
+{
+    display: inline;
+    background-color: bisque;
+    height: 80px;
+    width: 70px;
+    margin: 40px;
+}
+span
+{
+    /* display: block; */
+    display: inline-block;
+    color: aliceblue;
+    background-color: cadetblue;
+    height: 100px;
+    width: 500px;
+    margin: 30px;
+}
+
+/* INLINE ELEMENT: horizontal margin milta hai 
+lekin vertical margin visible nhi hota */

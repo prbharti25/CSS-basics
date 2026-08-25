@@ -1,0 +1,53 @@
+.card
+{
+    width: 20vw;
+    height:200px;
+
+    background-color: rgb(233, 134, 59);
+    border: 7px rgb(160, 120, 152);
+    border-style:inset;
+    padding: 10px;
+
+    box-sizing: border-box;
+    
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 50px;
+    margin:40px 20px 20px 34vw;
+    text-align: center;
+    /* border-radius: 100%; */
+}
+
+.card:hover
+{
+    background-color: wheat;
+    p{color: black;}
+    transform: scale(1.15);
+}
+
+h2
+{ 
+    color:rgb(167, 21, 111);
+}
+
+h2:hover
+{
+    color: white;
+}
+
+
+h3:hover
+{
+    color:rgb(10, 157, 225);
+    cursor: pointer;
+}
+
+p
+{
+    color: white;
+}
+
+body
+{
+    background-color:rgb(21, 58, 52);
+}
+

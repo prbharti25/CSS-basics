@@ -1,0 +1,40 @@
+.container
+{
+    background-color: rgb(127, 219, 247);
+    /* height: 200px;
+    width: 200px; */
+    display: flex;
+}
+.box
+{
+    background-color: rgb(41, 32, 211);
+    color: white;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+}
+
+@media(max-width: 300px)
+{
+    .container
+    {
+        flex-direction: column;
+    }
+}
+
+@media(min-width:301px) and (max-width: 600px)
+{
+    .container
+    {
+        flex-direction: column-reverse;
+    }
+}
+
+
+/* @media(max-width:500px)
+{
+    .container
+    {
+        background-color: black;
+    }
+} */

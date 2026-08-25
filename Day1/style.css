@@ -1,0 +1,57 @@
+*
+{
+    background-color:white;
+} 
+body
+{
+    color: rgb(103, 128, 53);
+    /* background-color:white; */
+}
+h1
+{
+    color: bisque;
+    background-color: maroon;
+}
+h2[draggable="true"]
+{
+    font: 300;
+    background-color: rgb(133, 206, 145);
+    color: rgb(86, 52, 8);
+}
+ul{
+    color: aqua;
+    background-color: rgb(255, 218, 169);
+}   
+.first
+{
+    color: blue;
+    background-color: red;
+}
+#id1,#id2
+{
+    color:tomato;
+    background-color:pink;
+} 
+
+ 
+/* 
+select by class name (.className)
+ you need to apply (.) then name of class
+
+ select by id name (#idName)
+you need to use (#) then ID name */
+
+
+
+
+section p
+{
+color: rgb(0, 8, 255);
+background-color: rgb(235, 210, 163);
+} 
+
+section > p
+{
+    color: red;
+    background-color: yellow;
+}

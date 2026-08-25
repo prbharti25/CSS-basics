@@ -1,0 +1,50 @@
+.container
+{
+    background-color: yellowgreen;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 80px;
+    height: 1000px;
+}
+
+.box
+{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.box1{
+    background-color: rgb(180, 3, 3);
+    position: absolute;
+    top: 200px;
+    left: 100px;
+
+}
+
+.box2{
+    background-color: gray;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.box3{
+    background-color: blueviolet;
+    position: sticky;
+    top: 20px;
+    left: 365px;
+    color: white;
+}
+
+
+.box4{
+    background-color: aquamarine;
+    position: fixed;
+    top:10px;
+    left:400px;
+}
+
+.newcontainer{
+    background-color: pink;
+    height: 1000px;
+}

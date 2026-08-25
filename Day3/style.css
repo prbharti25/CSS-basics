@@ -1,0 +1,24 @@
+h1
+{
+    /* font-size: 10vw; */
+    font-weight:lighter;
+    font-style:italic;
+    font-style: normal;
+    /* text-transform: lowercase; */
+}
+
+/* font varient HW */
+/* font stretch HW */
+p
+{
+    line-height: 2;
+    word-spacing: 10;
+    font-stretch:ultra-expanded;
+} 
+
+h2
+{
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 10vh;
+    font-variant:small-caps;
+}

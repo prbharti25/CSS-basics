@@ -1,0 +1,11 @@
+.container
+{
+    position: relative;
+    margin: auto;
+    top: 200px;
+    height: 200px;
+    width: 300px;
+    background-color: rgb(241, 152, 241);
+    overflow:auto;
+}
+

@@ -1,0 +1,214 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(224, 45, 25, 0.964);
+    padding: 1.3rem;
+}
+
+h1
+{
+    color: white;
+    font-size: 1.9rem;
+}
+
+.right button
+{
+    margin-left: 0.6rem;
+    font-size: 1.2rem;
+    color: rgb(215, 214, 214);   
+    background-color:rgba(224, 45, 25, 0.964);
+    border: none ; 
+    padding-top: .34rem;
+    cursor: pointer;
+    
+}
+
+.right button:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+.search
+{
+    padding: .8rem 0rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(174, 172, 172);
+}
+
+.searching
+{
+    width: 22rem;
+    max-width: 60%;
+    font-size: .9rem;
+    padding-left: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    /* margin-bottom: 1.8rem; */
+}
+
+.search > button
+{
+    margin-left: .2rem;
+    font-size: 1rem;
+    background-color:rgba(224, 45, 25, 0.895) ;
+    color: rgb(255, 255, 255);
+    padding: .5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rect
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background-image: url(./images/vinmust.jpg);
+    padding: 2.7rem 0rem;
+
+}
+ 
+.rect > h2
+{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: .2rem;
+}
+
+.rect > button
+{
+    margin-top: 1rem;
+    background-color: rgba(224, 45, 25, 0.964);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: .4rem;
+}
+
+.popular
+{
+    text-align: center;
+    padding: 1rem;
+}
+
+.popular > h2
+{
+    font-size: 2rem;
+}
+
+.images
+{
+    border-radius: .2rem;
+    height: 22rem;
+    width: 13rem;
+}  
+
+.movie
+{
+    display: flex;
+    /* justify-content: center; */
+    background-color: rgb(235, 229, 229);
+    overflow-x: scroll;
+}
+
+/* .promote
+{
+    position: absolute;
+    left: 8.5rem;
+    top: 0.4rem;
+    background-color: rgb(224, 45, 25);
+    color: white;
+    padding: .1rem;
+    border-radius: .2rem;
+} */
+
+.card
+{
+    border: .23rem solid rgb(235, 229, 229);
+    background-color: rgb(254, 251, 251);
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    
+}
+
+.card:hover
+{
+    border-color: rgb(224, 45, 25);
+    background-color: rgb(255, 255, 255);
+}
+
+.card h3
+{
+    font-size: 1.2rem;
+}
+
+.bot
+{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.bot > img{
+    max-width: 80%;
+}
+
+
+@media(max-width: 580px)
+{
+    .logo
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+
+    .movie
+    {
+        flex-direction: column;
+        gap: .5rem;
+    }
+  
+    .card
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;  
+        max-width: 300px;
+        text-align: center;
+        width: 16rem;
+    }
+
+    .images:hover
+    {
+        zoom: 110%;
+    }
+
+    .rect > h2
+    {
+        max-width: 80%;
+        text-align: center;
+    }
+}
+
+

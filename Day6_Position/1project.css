@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+header
+{
+    background-color: rgb(247, 144, 97);
+    position: fixed;
+    /* width: 100vw; */
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+main
+{
+    /* padding-top: 38px; */
+    margin-top: 40px;
+}
+
+h2
+{
+    background-color: rgb(243, 133, 31);
+    position: fixed;
+}
+
+footer
+{
+    background-color: rgb(243, 133, 31);
+    position: fixed;
+    margin: 200px;
+}
+

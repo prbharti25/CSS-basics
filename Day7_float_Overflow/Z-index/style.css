@@ -1,0 +1,51 @@
+.box
+{
+    display: inline-block;
+    height: 100px;
+    width: 100px;    
+}
+
+.container
+{
+    /* width: 100vw; */
+    /* height: 100px; */
+    background-color: rgb(166, 239, 132);
+    position: relative;
+    
+    top: 60px;
+    z-index: 10;
+}
+     
+.box1
+{
+    background-color: yellowgreen;
+    position: relative;
+    left: 25px;
+    top: 50px;
+}
+
+.box2
+{
+    background-color: rgb(230, 136, 12);
+    position: relative;
+    left: 50px;
+    top: 80px;
+    z-index: 1;
+}
+
+.box3
+{
+    background-color: rgb(212, 113, 186);
+    position: relative;
+    top: 20px;
+    z-index: 1;
+}
+
+.box4
+{
+    background-color: rgb(50, 164, 205);
+    position: relative;
+    top: 28px;
+    right: 20px;
+    z-index: 10;
+}

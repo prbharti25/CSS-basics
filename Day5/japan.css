@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.circle{
+    display: inline-block;
+    background-color: rgb(184, 0, 0);
+    height: 450px;
+    width: 450px;
+    text-align: center;
+    border-radius: 50%;
+    /* margin-left: 543px;
+    margin-top:210px; */
+    margin-left: 35vw;
+    margin-top: 25vh;
+}

@@ -1,0 +1,33 @@
+*
+{
+    margin: 0px;
+}
+
+.img1
+{
+    height: 250px;
+    width: 400px; 
+      
+    /* image shifts to left */
+    float: left;
+    margin-bottom:10px ;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+
+.img2
+{
+    height: 250px;
+    width: auto;
+    
+    float: right;
+    /* if any img is already in the left then it automatically goes down of left object */
+    /* The clear property prevents an element from being positioned next to a floated element. */
+    /* Forces the element to move below. */
+    clear: left;
+    
+    margin-right: 20px;
+    margin-bottom: 15px; 
+}
+

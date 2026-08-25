@@ -1,0 +1,61 @@
+.container
+{
+    background-color: rgb(110, 167, 109);
+    height: 830px;
+    display: flex;
+    flex-direction: row;    /* flex direction--> main axis */
+    /* justify-content: space-evenly;         */
+    /* justify-content works around main axis */
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    /* align-items: center; */
+    /* align-items works aorund cross axis */
+    /* align-items: stretch;  */
+    /* align-items: baseline; */
+}
+    
+
+.box
+{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.first
+{
+    font-size: 50px;
+}
+
+.second
+{
+    font-size: 25px;
+}
+
+.box1
+{
+    background-color: red;
+}
+
+.box2
+{
+    background-color: rgb(13, 10, 193);
+    color: white;
+}
+
+.box3
+{
+    background-color: rgb(15, 225, 46);
+}
+
+.box4
+{
+    background-color: rgb(218, 221, 21);
+}

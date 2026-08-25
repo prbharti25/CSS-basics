@@ -1,0 +1,101 @@
+*
+{
+    margin: 0px;
+    justify-content: center;
+}
+
+.card:hover
+{
+    background-color: rgb(247, 240, 231);
+    border-color: brown;
+    /* color: white; */
+}
+
+.card
+{
+    /* display: inline-block; */
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    height: 360px;
+    width: 320px;
+    margin-left: 20px;
+}
+
+.img
+{
+    border-radius: 15px;
+    width: 320px;
+    height: 260px;
+}
+
+.image
+{
+    position: relative;
+
+}
+
+.off
+{
+    position: absolute;
+    bottom: 12px;
+    background-color:rgba(0, 63, 253, .5);
+    color: white;
+    font-size: 25px;
+    width: 160px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+
+}
+
+.box
+{
+    display: inline-block;
+}
+
+.rating, .price, .distance
+{
+    position: absolute;
+    right: 5px;
+}
+
+.restaurent, .cuisine, .place
+{
+    position: relative;
+    margin-top: 12px;
+    margin-left: 5px;
+
+}
+
+.restaurent_name
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.distance
+{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.rating
+{
+    background-color: rgb(2, 94, 2);
+    color: white;
+    padding: 2px;
+    height: 22spx;
+    width: 38px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cuisine, .location
+{
+    color: grey;
+    font-size: 16px;
+}

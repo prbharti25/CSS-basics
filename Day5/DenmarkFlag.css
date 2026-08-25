@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first, .third{
+    display: inline-block;
+    background-color: rgb(213, 0, 0);
+    height: 40vh;
+    width: 28vw;
+    margin-right: 14vw;
+}
+
+.second, .fourth{
+    display: inline-block;
+    background-color: rgb(213, 0, 0);
+    height: 40vh;
+    width: 58vw;
+}
+
+.third, .fourth{
+    margin-top: 20vh;
+}

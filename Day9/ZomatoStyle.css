@@ -1,0 +1,262 @@
+*
+{
+    margin: 0;
+}
+
+main
+{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.card:hover
+{   background-color:#f8f0f9;
+    border: 2px solid rgb(236, 156, 227);
+    border-radius: 10px;
+}
+
+
+.card
+{
+    padding: 10px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 10px;
+    cursor:pointer;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.box
+{
+    display: inline-block;
+}
+
+.img
+{
+    height: 225px;
+    width: 330px;
+    border-radius: 20px;
+}
+
+.image
+{
+    position: relative;
+}
+
+.off
+{
+    position: absolute;
+    color: #ffffff;
+    background-color: rgba(0, 4, 255, 0.5);
+    font-size: 18px;
+    font-weight:bold;
+    bottom: 20px;
+    height: 25px;
+    width: 150px;
+    text-align:center;
+}
+
+.restaurent_name
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.restaurent, .food, .location
+{
+    position: relative;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.rating
+{
+    background-color: green;
+    color: white;
+    height: 23px;
+    width: 40px;
+    padding: 2px;
+    text-align: center;
+    position: absolute;
+    right: 5px;
+    border-radius: 6px;
+
+}
+
+.price, .distance
+{
+    position: absolute;
+    right: 5px; 
+}
+
+.food, .place
+{
+    font-size: 15px;
+    color: rgb(132, 131, 131);
+}
+
+.distance
+{
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+
+.first, .second
+{
+    margin-bottom:30px;
+    padding-left: 380px;
+}
+
+/* .first
+{
+    position: fixed;
+    top: 10px;
+} */
+
+.second
+{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    top: 0px;
+}
+
+.third
+{   
+    position: relative;
+    top: 20px;
+    background-color: rgb(238, 246, 235);
+    height: 500px;
+    margin-bottom: 80px;
+}
+
+
+.img1, .img2, .img3
+{
+    height: 35px;
+    width: 35px;
+}
+
+
+.dine, .deli, .night
+{
+    position: relative;
+    bottom: 10px;
+    margin-left: 7px;
+    margin-right: 35px;
+    color: rgb(122, 121, 118);
+}
+
+.dine:hover , .deli:hover, .night:hover
+{
+    cursor: pointer;
+}
+
+.brand
+{
+    color: rgb(205, 5, 5);
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.searching
+{
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+    height: 30px;
+    margin-right: 50px ;
+    position: relative;
+    bottom: 10px;
+}
+
+button
+{
+    height: 25px;
+    width: 70px;
+    position: relative;
+    bottom: 11px;
+    font-size: 17px;
+    margin-left: 20px;
+    background-color: white;
+    color: rgb(158, 154, 154);
+    border: none;
+}
+
+button:hover
+{
+    color: rgb(47, 46, 46);
+    cursor: pointer;
+}
+
+
+.collect
+{   
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    top: 20px;
+    left: 245px;
+}
+
+.info
+{   
+    position: absolute;
+    top: 100px;
+    left: 245px;
+    font-size: 20px;
+    color: rgb(216, 82, 61);
+}
+
+.cards
+{
+    display: inline-block;
+    position: relative;
+    left: 228px;
+    top: 145px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.image1
+{
+    position: relative;
+}
+
+.img11
+{
+    position: relative;
+    height: 320px;
+    width: 250px;
+    border-radius: 8px;
+}
+.top
+{
+    position: absolute;
+    bottom: 33px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.places
+{
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+
+
+
